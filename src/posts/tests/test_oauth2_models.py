@@ -43,5 +43,4 @@ class TestOauth2Model(TestCase):
             token=f'{random}---{admin_user.username}',
             application=app
         )
-        import ipdb; ipdb.set_trace()
         assert admin_token is not None, "널값은 ㄴㄴ"
